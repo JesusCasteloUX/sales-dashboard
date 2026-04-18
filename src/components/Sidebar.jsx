@@ -13,7 +13,7 @@ export default function Sidebar() {
   return (
     <aside className="sidebar">
       <div>
-        <p className="sidebar-title">SalesDash</p>
+        <p className="sidebar-title">Dashboard Ventas</p>
         <p className="sidebar-sub">Panel de control</p>
       </div>
       {links.map(link => (
