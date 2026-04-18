@@ -1,16 +1,31 @@
-# React + Vite
+# SalesDash — Dashboard de Ventas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dashboard interactivo de ventas con métricas, gráficas y navegación entre secciones.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 4 tarjetas de métricas con indicadores de crecimiento
+- Gráfica de línea — ventas por mes
+- Gráfica de barras — ventas por categoría
+- Gráfica de dona — distribución por región
+- Tabla de órdenes con filtros por estado
+- Navegación entre secciones con React Router
+- Diseño responsivo para móvil y desktop
 
-## React Compiler
+## Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React + Vite
+- React Router DOM
+- Recharts
+- CSS personalizado
 
-## Expanding the ESLint configuration
+## Instalación
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+## Demo
+
+[Ver en vivo](https://meek-wisp-fa51ca.netlify.app)
